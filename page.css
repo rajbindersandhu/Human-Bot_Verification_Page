@@ -1,0 +1,51 @@
+.container{
+    position:relative;
+}
+h3{
+    color: cornsilk;
+    padding: 1%;
+}
+.small-container{
+    width:100%;
+    position: absolute;
+    top:5rem;
+    background-color: black;
+    text-align: center;
+}
+.img-box{
+    display:grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+}
+.button-div{
+    display: grid;
+    justify-content: center;
+    grid-gap:10px;
+   
+    margin-bottom: 5%;;
+}
+div.button-div > button{
+    width:15rem;
+    text-align: center;
+    border-radius: 8%;
+    font-size: 30px;
+
+}
+#reset{
+    display: none;
+    color:white;
+}
+#btn{
+    display: none;
+    color:white;
+}
+.verified{
+    display:none;
+    color:white;
+    font-size: 50px;;
+}
+.confused{
+    display:none;
+    color:white;
+    font-size: 50px;
+}
